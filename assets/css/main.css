@@ -1808,9 +1808,11 @@ input, select, textarea {
 		#banner h2 {
 			border: solid 1px rgba(255, 255, 255, 0.25);
 			border-left: 0;
-			border-right: 0;
+			border-top: 0;
+			border-bottom: 0; /* MP changes  to remove horizontal line below the title */
+			border-right: 0; /* MP changes  to remove horizontal line above the title */
 			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			/* color: rgba(255, 255, 255, 0.75); */
 			font-size: 2.35em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -1825,7 +1827,8 @@ input, select, textarea {
 			#banner h2:before {
 				content: '';
 				display: block;
-				border-top: solid 1px;
+				/* border-top: solid 1px;  MP changes  to remove horizontal line above the title */
+				border-top: 0; /* MP changes  to remove horizontal line above the title */
 				border-color: #888;
 				border-color: rgba(255, 255, 255, 0.25);
 				margin: 10px 0 1.25em 0;
@@ -1834,7 +1837,8 @@ input, select, textarea {
 			#banner h2:after {
 				content: '';
 				display: block;
-				border-bottom: solid 1px;
+				/* border-bottom: solid 1px; MP changes  to remove horizontal line below the title */
+				border-bottom: 0; /* MP changes  to remove horizontal line below the title */
 				border-color: #888;
 				border-color: rgba(255, 255, 255, 0.25);
 				margin: 1.25em 0 10px 0;
@@ -1875,8 +1879,50 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-		height: 420px;
+		height: 440px;
 	}
+
+	#header-wrapper-venue {
+		background: url("../../images/toledo-elgreco.jpg");
+		background-position: top left, center center;
+		background-size: cover, cover;
+		padding: 3em 0;
+		height: 440px;
+	}
+
+	#header-wrapper-people {
+        background: url("../../images/toledo-day1.jpg");
+        background-position: top left, center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-abstract {
+        background:  url("../../images/toledo-night1.jpg");
+        background-position: top left, center center;
+        background-size: cover, cover;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-coc {
+        background:  url("../../images/toledo-bridge-day.jpg");
+        background-position: top left, center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 440px;
+    }
 
 	#main-wrapper {
 		background: #fff;
@@ -1893,6 +1939,19 @@ input, select, textarea {
 		background-position: top left, top center, top left;
 		padding: 7em 0 7em 0;
 	}
+
+	#footer-wrapper-logo{
+		background-image:  url("images/bg05.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        	padding: 3em 0;
+		height: 380px;
+	}
+
 
 	.wrapper {
 		padding: 7em 0 7em 0;
