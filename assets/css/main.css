@@ -1801,7 +1801,7 @@ input, select, textarea {
 
 	#banner {
 	text-align: center;
-	max-width: : 100%;
+	width: : 100%;
 	padding: 4em 0 2em 0;
 	}
 
@@ -1880,7 +1880,6 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-
 	}
 
 	#header-wrapper-venue {
@@ -1888,7 +1887,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: bottom;
-        padding: 3em 0;
+        	padding: 3em 0;
 	}
 
 	#header-wrapper-people {
