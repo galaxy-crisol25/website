@@ -1800,9 +1800,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-	width: 100%;
+	text-align: center;
+	max-width: : 100%;
 	padding: 4em 0 2em 0;
-}
+	}
 
 
 		#banner h2 {
@@ -1879,7 +1880,6 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-		height: 500px;
 	}
 
 	#header-wrapper-venue {
@@ -1887,24 +1887,15 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: bottom;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
 	}
 
 	#header-wrapper-people {
         background: url("../../images/toledo-day1.jpg");
-        background-position: top left, center center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
-        padding: 3em 0;
-		height: 500px;
+       padding: 3em 0;
     }
 
 	#header-wrapper-abstract {
@@ -1912,11 +1903,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
     }
 
 	#header-wrapper-scientific {
@@ -1924,11 +1911,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
     }
 
 	#header-wrapper-poster {
@@ -1936,11 +1919,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
     }
 
 	#header-wrapper-social {
@@ -1948,11 +1927,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
     }
 
 
@@ -1962,11 +1937,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
         padding: 3em 0;
-		height: 500px;
     }
 
 	#main-wrapper {
@@ -2414,6 +2385,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				width: 100%;
 				padding: 8em 0 4em 0;
 			}
 
@@ -2433,6 +2405,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -2533,6 +2506,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				width: 100%;
+
 				padding: 40px 20px 40px 20px;
 			}
 
