@@ -1805,7 +1805,6 @@ input, select, textarea {
 		margin: 0 auto;
 		overflow: hidden;		
 		padding: 9em 0 6em 0;
-
 	}
 
 
@@ -1891,7 +1890,7 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: bottom;
-        	padding: 3em 0;
+        padding: 3em 0;
 	}
 
 	#header-wrapper-people {
@@ -2130,7 +2129,7 @@ input, select, textarea {
 
 			#banner {
 				width: 100%;
-				padding: 40em 0 2em 0;
+				padding: 4em 0 2em 0;
 			}
 
 				#banner h2 {
@@ -2389,7 +2388,6 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				width: 100%;
 				padding: 8em 0 4em 0;
 			}
 
@@ -2510,7 +2508,6 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				width: 100%;
 
 				padding: 40px 20px 40px 20px;
 			}
