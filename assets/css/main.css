@@ -1879,7 +1879,7 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-		height: 440px;
+		height: 500px;
 	}
 
 	#header-wrapper-venue {
@@ -1891,7 +1891,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
 	}
 
 	#header-wrapper-people {
@@ -1904,7 +1904,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 	#header-wrapper-abstract {
@@ -1916,7 +1916,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 	#header-wrapper-scientific {
@@ -1928,7 +1928,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 	#header-wrapper-poster {
@@ -1940,7 +1940,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 	#header-wrapper-social {
@@ -1952,7 +1952,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 
@@ -1966,7 +1966,7 @@ input, select, textarea {
 		width: 100%;
 		object-fit: contain;
         padding: 3em 0;
-		height: 440px;
+		height: 500px;
     }
 
 	#main-wrapper {
