@@ -1906,7 +1906,7 @@ input, select, textarea {
         background:  url("../../images/toledo-sunset2.jpeg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
         padding: 3em 0;
     }
 
