@@ -1878,9 +1878,10 @@ input, select, textarea {
 	}
 
 	#header-wrapper-home {
-		background: url("../../images/incred_cover2.png");
+		background: url("images/bg19.png");
 		background-position: top;
 		background-size: cover;
+		width: 100%;
 		background-repeat: no-repeat;
 		padding: 3em 0;
 	}
