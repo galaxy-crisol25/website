@@ -249,39 +249,44 @@
 							</section>
 						</div>
 					</div>
-			<!-- Footer Wrapper -->
-				<div id="footer-wrapper-logo">
-					<footer id="footer" class="container">
-   				 <div class="row" style="display:flex; flex-wrap:wrap; align-items:flex-start; color:white;">
-							<div class="col-3 col-6-medium col-12-small">
-								<!-- Contact -->
-									<section>
-										<h2>Contact us <i class="fa fa-envelope" style="font-size:20px" style="color:white"></i></h2>
-										<div>
-											<div class="row">
-												<div class="col-6 col-12-small">
-													<dl class="contact">
-														<dt>SOC:</dt>
-														<dd><a href="mailto:galaxycrisol25_soc@googlegroups.com">galaxycrisol25_soc@googlegroups.com</a></dd>
-														<dt>LOC:</dt>
-														<dd><a href="mailto:galaxycrisol25_loc@googlegroups.com">galaxycrisol25_loc@googlegroups.com</a></dd>
-														<dt>Chairs:</dt>
-														<dd><a href="mailto:galaxycrisol25_chairs@googlegroups.com">galaxycrisol25_chairs@googlegroups.com</a></dd>
-													</dl>
-												</div>
-									</section>
-							</div>
-							</div>
-										<div class="col-3 col-6-medium col-12-small">
-								<h2 style="font-size:18px; ">Website last update: </h2>	<p style="font-size:16px; margin-top: -20px" > <script>document.write(  new Date(document.lastModified) );</script></p>
-								</div>
+<!-- Footer Wrapper -->
+<div id="footer-wrapper-logo">
+  <footer id="footer" class="container">
+    <!-- Flex row for footer -->
+    <div style="display:flex; flex-wrap:nowrap; justify-content:space-between; align-items:flex-start; color:white;">
 
-								<div class="col-3 col-6-medium col-12-small">
-									<h2 style="font-size:18px; ">Website credits: </h2>	<p style="font-size:16px; margin-top: -20px" > M. Annunziatella, M. Perna </p>
-									</div>
+      <!-- Left side: group the 3 existing blocks -->
+      <div style="display:flex; flex-wrap:wrap; gap:40px;">
+        <!-- Contact -->
+        <div>
+          <h2>Contact us <i class="fa fa-envelope" style="font-size:20px; color:white"></i></h2>
+          <dl class="contact">
+            <dt>SOC:</dt>
+            <dd><a href="mailto:galaxycrisol25_soc@googlegroups.com">galaxycrisol25_soc@googlegroups.com</a></dd>
+            <dt>LOC:</dt>
+            <dd><a href="mailto:galaxycrisol25_loc@googlegroups.com">galaxycrisol25_loc@googlegroups.com</a></dd>
+            <dt>Chairs:</dt>
+            <dd><a href="mailto:galaxycrisol25_chairs@googlegroups.com">galaxycrisol25_chairs@googlegroups.com</a></dd>
+          </dl>
+        </div>
 
-<!-- Funding agencies -->
-      <div class="col-3 col-6-medium col-12-small" style="margin-left:auto; text-align:left;">
+        <!-- Website last update -->
+        <div>
+          <h2 style="font-size:18px;">Website last update:</h2>
+          <p style="font-size:14px; margin-top:-10px;">
+            <script>document.write(new Date(document.lastModified));</script>
+          </p>
+        </div>
+
+        <!-- Website credits -->
+        <div>
+          <h2 style="font-size:18px;">Website credits:</h2>
+          <p style="font-size:14px; margin-top:-10px;">M. Annunziatella, M. Perna</p>
+        </div>
+      </div>
+
+      <!-- Right side: funding agencies -->
+      <div style="max-width:300px; text-align:left;">
         <h2 style="font-size:18px; text-transform:uppercase; margin:0 0 5px 0;">
           Funding agencies
         </h2>
@@ -293,12 +298,10 @@
           La Mancha (JCCM), and the Ayuntamiento de Toledo.
         </p>
       </div>
-								
-						</div>
-					</footer>
-				</div>
 
-		</div>
+    </div>
+  </footer>
+</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -310,6 +313,7 @@
 
 	</body>
 </html>
+
 
 
 
